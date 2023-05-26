@@ -1,0 +1,103 @@
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline:0;
+ list-style: none;
+ text-decoration: none;
+ box-sizing: border-box;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  /* The root app font size is by default 16px so 0.9 rem means 16*0.9 which is equl to 14.4 */
+  /* so we can also add fontsize 14.4 instead of 0.9 */
+  font-size: 0.9rem
+}
+section{
+  padding: 10rem 0;
+  background-color: lightgray;
+  transition: all 500ms ease;
+}
+section:nth-child(even){
+  background-color: white;
+}
+
+/* section>h2means that the h2 element which is inside of section and direct
+children of section */
+section>h2{
+text-align: center;
+}
+section>p{
+  text-align: center;
+  margin: 0.5rem;
+  width: 40%;
+  }
+a{
+/* color: white; */
+transition: all 500ms ease;
+}
+h1,h2,h3,h4,h5,h6{
+  line-height:1.1;
+  color: black;
+}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.6rem;
+}
+h4{
+  font-size: 1.1rem;
+}
+h5{
+  font-size: 0.95rem;
+}
+h6{
+  font-size: 0.8rem;
+}
+.img{
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.btn{
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: lightgray;
+  color: black;
+  /* top bottom 0.6     right left 2.5 */
+  padding: 0.6rem 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.btn:hover{
+background-color: transparent;
+border-color: lightgray;
+transform: translateY(-0.5rem);
+}
+.btn.white{
+  background-color: white;
+}
+.btn.white:hover{
+  background-color: white;
+}
+.btn.primary{
+  background-color: lightblue;
+  color: white;
+}
+.btn.primary:hover{
+  background: transparent;
+  border-color: lightblue;
+  color: lightblue;
+}
+.btn.sm{
+  padding: 0.5rem 1.2rem;
+}
