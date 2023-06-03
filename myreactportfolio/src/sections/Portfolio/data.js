@@ -20,12 +20,6 @@ const data = [
     details: 'at tristique ex. Integer euismod justo ut tortor fringilla convallis. Donec at congue enim.',
     link:'https://github.com/MuzammilMemon/netflix-clone-react.git'
     },
-    {
-    id: 4,
-    image:'../../assets/istockphoto-1151140471-612x612.jpg',
-    title: 'Pricing Styled Table', 
-    details: 'at tristique ex. Integer euismod justo ut tortor fringilla convallis. Donec at congue enim.',
-    link:'https://github.com/MuzammilMemon/netflix-clone-react.git'
-},
+
 ]
 export default data;

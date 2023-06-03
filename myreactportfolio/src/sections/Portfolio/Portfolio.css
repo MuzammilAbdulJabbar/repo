@@ -73,18 +73,15 @@ overflow: hidden;
     height: 2rem;
     justify-content: center;
     align-items: center;
-   
+    background-color: purple;
+   color: white;
     
+  }
+  .btn-primary:hover{
+    background-color:white ;
+    color: purple;
   }
   
 
   
-  .btn-secondary {
-    /* Add custom styles for secondary button */
-    margin-left: 14.5rem;
-    margin-top: -2.4rem;
-    width: 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  
