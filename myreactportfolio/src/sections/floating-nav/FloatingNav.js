@@ -1,9 +1,9 @@
 import React from 'react'
-import './Floatingnav.css'
+import './FloatingNav.css'
 
 const FloatingNav = () => {
   return (
-    <section id='floating'></section>
+    <section id='floating'><h2></h2></section>
   )
 }
 

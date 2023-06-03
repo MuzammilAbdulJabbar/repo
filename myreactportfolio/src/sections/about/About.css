@@ -1,0 +1,51 @@
+section#about{
+    height: 36rem;
+}
+.image_left img{
+    height: 21rem;
+    width: 15rem;
+    margin-left: 10rem;
+    transform: translateY(-4.1rem);
+    border: 7px solid white;
+}
+.about_heading{
+    margin-left: 33rem;
+    transform: translateY(-4rem);
+   font-size: 1.8rem;
+    
+}
+p.para{
+    /* color: yellowgreen; */
+    margin-left: 32.9rem;
+    transform: translateY(-24rem);
+    text-align:left;
+    width: 45%;
+}
+section#about{
+    height: 36rem;
+}
+.image_left img{
+    height: 21rem;
+    width: 15rem;
+    margin-left: 10rem;
+    transform: translateY(-4.1rem);
+    border: 7px solid white;
+}
+.about_heading{
+    margin-left: 33rem;
+    transform: translateY(-4rem);
+   font-size: 1.8rem;
+    
+}
+p.para{
+    /* color: yellowgreen; */
+    margin-left: 32.9rem;
+    transform: translateY(-25rem);
+    text-align:left;
+    width: 45%;
+}
+#about a{
+    margin-left: 32.8rem;
+    transform: translateY(-24rem);
+   
+}

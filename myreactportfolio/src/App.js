@@ -3,7 +3,6 @@ import './App.css'
 import About from './sections/about/About';
 import Navbar from './sections/Navbar/Navbar';
 import Header from './sections/Header/Header';
-import Services from './sections/Services/Services';
 import Portfolio from './sections/Portfolio/Portfolio';
 import Testimonials from './sections/Testimonials/Testimonials';
 import FAQs from './sections/Faqs/FAQs';
@@ -16,7 +15,6 @@ function App() {
     <Navbar/>
     <Header/>
     <About/>
-   <Services/>
    <Portfolio/>
    <Testimonials/>
    <FAQs/>

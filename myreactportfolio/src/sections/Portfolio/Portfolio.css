@@ -1,0 +1,90 @@
+section#portfolio{
+    height: 45rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.portfolio_heading{
+    transform: translateY(-7rem);
+}
+p.portfolio{
+   margin-left: 25rem;
+   transform: translateY(-6rem);
+}
+div.card_container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 4.6rem;
+  
+}
+/* .portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+.portfolio_items{
+    background-color: purple;
+    padding: 1.3rem;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+}
+.portfolio_item-image{
+    border-radius: 1.5rem;
+overflow: hidden;
+} */
+.card {
+    background-color: white;
+    border: 1px solid black;
+    width: 20.5rem;
+    height: 29rem;
+    margin-left: 4rem;
+    transform: translateY(-4rem);
+    border-radius: 10px;
+    
+  }
+  .card-img-top{
+    height: 13rem;
+    width: 18rem;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: medium;
+    padding: 1rem;
+    margin-left: 0.4rem;
+  }
+  
+  .card-text {
+    font-weight: normal;
+    text-align: left;
+    width: 18.7rem;
+    
+  }
+  
+  .btn-primary{
+    /* Add custom styles for primary button */
+    margin-left: 7.8rem;
+    margin-top: 1rem;
+    width: 6rem;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+  
+
+  
+  .btn-secondary {
+    /* Add custom styles for secondary button */
+    margin-left: 14.5rem;
+    margin-top: -2.4rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

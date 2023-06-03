@@ -15,10 +15,51 @@ header{
     position: relative;
 }
 .header__profile img{
-    width: 16rem;
-    height: 21rem;
+    width: 12rem;
+    height: 16rem;
     border-radius: 9rem 9rem 2rem 2rem;
     margin-bottom: 1.5rem;
-    margin-left: 17rem;
+    margin-left: 11rem;
     /* overflow: hidden; */
+}
+ p{
+    width: 30rem;
+    text-align: center;
+    margin-left: 1.4rem;
+    margin-top: 10px;
+    /* margin: 0.8rem 0.8rem; */
+    /* margin-top: 100rem; */
+}
+h3{
+    margin-left: -10rem;
+}
+.header_cta{
+    display: flex;
+    align-items: center;
+    /* background-color: black; */
+    margin-left: 13rem;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.header__container h3{
+transform: translateX(17rem);
+}
+/*  */
+.header__socials a{
+    width: 1.8rem;
+    aspect-ratio: 1/1;
+    background-color: lightgray;
+    color: black;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+.header__socials{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: 25rem;
+   transform: translateX(-5rem);
 }
